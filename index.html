@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="calculator">
+    <div class="display" id="display">0</div>
+    <div class="buttons">
+      <button class="btn apagar" onclick="limpar(event)">C</button>
+      <button class="btn function" onclick="mostrar(event)">( )</button>
+      <button class="btn function" onclick="mostrar(event)">%</button>
+      <button class="btn operator" onclick="mostrar(event)">÷</button>
+
+      <button class="btn" onclick="mostrar(event)">7</button>
+      <button class="btn" onclick="mostrar(event)">8</button>
+      <button class="btn" onclick="mostrar(event)">9</button>
+      <button class="btn operator" onclick="mostrar(event)">×</button>
+
+      <button class="btn" onclick="mostrar(event)">4</button>
+      <button class="btn" onclick="mostrar(event)">5</button>
+      <button class="btn" onclick="mostrar(event)">6</button>
+      <button class="btn operator" onclick="mostrar(event)">−</button>
+
+      <button class="btn" onclick="mostrar(event)">1</button>
+      <button class="btn" onclick="mostrar(event)">2</button>
+      <button class="btn" onclick="mostrar(event)">3</button>
+      <button class="btn operator" onclick="mostrar(event)">+</button>
+
+      <button class="btn" onclick="mostrar(event)">+/-</button>
+      <button class="btn" onclick="mostrar(event)">0</button>
+      <button class="btn" onclick="mostrar(event)">,</button>
+      <button class="btn equal" onclick="calcular(event)">=</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
