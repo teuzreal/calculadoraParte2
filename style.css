@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator {
+  width: 280px;
+  background-color: #000;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.9);
+}
+
+.display {
+  color: #fff;
+  font-size: 45px;
+  text-align: right;
+  padding: 50px 1px;
+  border-bottom: 1px solid #333;
+  margin-bottom: 25px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+}
+
+.btn {
+  background-color: #19191d;
+  border: none;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background-color: #2c2c34;
+  font-size: 20px;
+}
+
+.apagar {
+  background-color: #36363d;
+  color: #fff;
+  font-size: 28px;
+}
+
+.apagar:hover {
+  background-color: #ff0000;
+  font-size: 23px;
+}
+
+.function {
+  background-color: #36363d;
+  color: #ffffff;
+  font-size: 28px;
+} 
+
+.function:hover {
+  background-color: #4a4a52;
+  font-size: 23px;
+}
+
+.operator {
+  background-color: #bababa;
+  color: #000000;
+  font-size: 35px;
+}
+
+.operator:hover {
+  background-color: #f8f8f8;
+  font-size: 28px;
+}
+
+.equal {
+  background-color: #bababa;
+  color: #000000;
+  font-size: 35px;
+}
+
+.equal:hover {
+  background-color: #04c804;
+  color: #ffffff;
+  font-size: 28px;
+}
